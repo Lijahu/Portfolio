@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Liam Humphreys | Robotics & Human-Centred Engineering</title>
+  <meta name="description" content="Portfolio website for Liam Humphreys, MSc Human and Biological Robotics student at Imperial College London." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#top" class="brand" aria-label="Homepage">
+        <span class="brand-mark">LH</span>
+        <span class="brand-text">Liam Humphreys</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Toggle dark mode">◐</button>
+      </nav>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu">
+        Menu
+      </button>
+    </div>
+
+    <div id="mobile-menu" class="mobile-menu">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section" id="top">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">MSc Human and Biological Robotics · Imperial College London</p>
+          <h1>Engineering systems that connect high-performance design with human need.</h1>
+          <p class="hero-text">
+            I’m Liam Humphreys, a robotics and engineering researcher focused on sensing, control,
+            instrumentation, and human-centred device design.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View projects</a>
+            <a class="btn btn-secondary" href="assets/CV_New.pdf" target="_blank" rel="noopener noreferrer">Open CV</a>
+          </div>
+
+          <ul class="hero-meta" role="list">
+            <li>London, UK</li>
+            <li><a href="mailto:liam@newworldresources.com">liam@newworldresources.com</a></li>
+            <li><a href="https://linkedin.com/in/liamjhumphreys" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          </ul>
+        </div>
+
+        <div class="hero-card fade-in">
+          <img
+            src="assets/headshot.jpg"
+            alt="Portrait of Liam Humphreys"
+            width="720"
+            height="900"
+            loading="eager"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container narrow reveal-up">
+        <p class="section-label">Profile</p>
+        <h2>About</h2>
+        <p>
+          First-Class Engineering Physics graduate currently completing an MSc in Human and Biological
+          Robotics at Imperial College London, with a strong focus on sensors, instrumentation, control theory,
+          and physical prototyping.
+        </p>
+        <p>
+          My current work centres on assistive and rehabilitative systems, especially projects that combine
+          hardware, signal processing, and mechanical design under real engineering constraints.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="section-label">Selected work</p>
+            <h2>Projects</h2>
+          </div>
+          <p class="section-intro">
+            A visual expansion of the projects and engineering work highlighted in my CV.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card fade-in">
+            <div class="project-media">
+              <img
+                src="assets/proprio-device-1.jpg"
+                alt="Prototype of multi-degree-of-freedom proprioceptive feedback device"
+                width="1200"
+                height="800"
+                loading="lazy"
+              />
+            </div>
+            <div class="project-body">
+              <p class="project-tag">Current dissertation</p>
+              <h3>Multi-DoF Proprioceptive Feedback Device</h3>
+              <p>
+                Designing and building a multi-degree-of-freedom device for real-time proprioceptive feedback
+                in upper-limb prosthesis applications, with emphasis on grasp identification.
+              </p>
+              <button class="project-toggle" aria-expanded="false">Read more</button>
+              <div class="project-details">
+                <div class="details-grid">
+                  <img
+                    src="assets/proprio-device-2.jpg"
+                    alt="Second image of proprioceptive feedback system development"
+                    width="1200"
+                    height="800"
+                    loading="lazy"
+                  />
+                  <div>
+                    <h4>What I worked on</h4>
+                    <ul>
+                      <li>System architecture and concept definition.</li>
+                      <li>Hardware prototyping and iterative mechanical design.</li>
+                      <li>Experimental validation strategy for embodied feedback.</li>
+                    </ul>
+                    <h4>What mattered</h4>
+                    <p>
+                      This project required full-stack engineering: device concept, sensing logic, physical
+                      build constraints, and human-centred testing.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card fade-in">
+            <div class="project-media">
+              <img
+                src="assets/insole-1.jpg"
+                alt="Prototype sensory substitution insole with feedback electronics"
+                width="1200"
+                height="800"
+                loading="lazy"
+              />
+            </div>
+            <div class="project-body">
+              <p class="project-tag">Human-centred design</p>
+              <h3>Sensory Substitution Insole for Peripheral Neuropathy</h3>
+              <p>
+                Designed a closed-loop feedback system using plantar pressure sensing, vibrotactile actuation,
+                ultrasonic sensing, and drop-foot assistance concepts.
+              </p>
+              <button class="project-toggle" aria-expanded="false">Read more</button>
+              <div class="project-details">
+                <div class="details-grid">
+                  <div>
+                    <h4>Design focus</h4>
+                    <ul>
+                      <li>Clinical need and user requirements.</li>
+                      <li>Feedback pathway design and actuator selection.</li>
+                      <li>Prototype development under safety and hardware constraints.</li>
+                    </ul>
+                    <h4>Why it stands out</h4>
+                    <p>
+                      It combined rehabilitation thinking with practical embedded-system design rather than
+                      treating the problem as a purely theoretical exercise.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card fade-in">
+            <div class="project-media">
+              <img
+                src="assets/vapour-deposition.jpg"
+                alt="Experimental materials research and silicon substrate analysis"
+                width="1200"
+                height="800"
+                loading="lazy"
+              />
+            </div>
+            <div class="project-body">
+              <p class="project-tag">Experimental research</p>
+              <h3>Self-Assembled Monolayer Deposition Research</h3>
+              <p>
+                Researched vapour deposition parameter optimisation on silicon substrates and performed full
+                data analysis in Python with publication-standard reporting.
+              </p>
+              <button class="project-toggle" aria-expanded="false">Read more</button>
+              <div class="project-details">
+                <div class="details-grid">
+                  <div>
+                    <h4>Methods used</h4>
+                    <ul>
+                      <li>Experimental planning and parameter iteration.</li>
+                      <li>Python-based analysis using scientific libraries.</li>
+                      <li>Technical documentation to a high academic standard.</li>
+                    </ul>
+                    <h4>Skills demonstrated</h4>
+                    <p>
+                      This project strengthened my ability to move from raw experiment output to interpretable,
+                      defensible engineering conclusions.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card fade-in">
+            <div class="project-media">
+              <img
+                src="assets/rocket-club.jpg"
+                alt="Model rocket engineering and launch project"
+                width="1200"
+                height="800"
+                loading="lazy"
+              />
+            </div>
+            <div class="project-body">
+              <p class="project-tag">Hands-on engineering</p>
+              <h3>Model Rocket Club</h3>
+              <p>
+                Co-founded a club designing and launching 3D-printed rockets, with responsibility for CAD,
+                systems integration, and centre-of-pressure versus centre-of-gravity analysis.
+              </p>
+              <button class="project-toggle" aria-expanded="false">Read more</button>
+              <div class="project-details">
+                <div class="details-grid">
+                  <div>
+                    <h4>Engineering themes</h4>
+                    <ul>
+                      <li>Applied mechanics and stability analysis.</li>
+                      <li>CAD workflow and prototype iteration.</li>
+                      <li>Team-led technical execution in a practical environment.</li>
+                    </ul>
+                    <h4>Why include it</h4>
+                    <p>
+                      It shows comfort with building real things, not just analysing them.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt-surface" id="education">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="section-label">Background</p>
+            <h2>Education</h2>
+          </div>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal-up">
+            <div class="timeline-meta">2025–2026</div>
+            <div class="timeline-content">
+              <h3>Imperial College London</h3>
+              <p>MSc in Human and Biological Robotics</p>
+              <p class="muted">Relevant study: data analysis, robotics, biomechanics, assistive and rehabilitative device design, reinforcement learning.</p>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal-up">
+            <div class="timeline-meta">2022–2025</div>
+            <div class="timeline-content">
+              <h3>Aberystwyth University</h3>
+              <p>BEng in Engineering Physics — First Class Honours</p>
+              <p class="muted">Relevant study: systems engineering, control theory, electricity and magnetism, sensors and instrumentation, material physics.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="section-label">Capabilities</p>
+            <h2>Skills</h2>
+          </div>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-panel">
+            <h3>Programming</h3>
+            <p>Python, Pandas, NumPy, SciPy, Matplotlib, PyTorch, MATLAB</p>
+          </article>
+          <article class="skill-panel">
+            <h3>CAD & design</h3>
+            <p>SolidWorks, Fusion 360, OnShape</p>
+          </article>
+          <article class="skill-panel">
+            <h3>Engineering themes</h3>
+            <p>Sensing, control, instrumentation, prototyping, human-centred engineering</p>
+          </article>
+          <article class="skill-panel">
+            <h3>Languages</h3>
+            <p>English, Italian, German</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt-surface" id="contact">
+      <div class="container contact-card">
+        <p class="section-label">Get in touch</p>
+        <h2>Contact</h2>
+        <p>
+          I’m interested in engineering roles and research opportunities at the intersection of advanced hardware
+          and human-centred application.
+        </p>
+        <div class="contact-actions">
+          <a class="btn btn-primary" href="mailto:liam@newworldresources.com">Email me</a>
+          <a class="btn btn-secondary" href="assets/CV_New.pdf" target="_blank" rel="noopener noreferrer">Download CV</a>
+          <a class="btn btn-secondary" href="https://linkedin.com/in/liamjhumphreys" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>© 2026 Liam Humphreys</p>
+      <p>Built as a static site for GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
